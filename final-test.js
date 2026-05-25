@@ -44,8 +44,8 @@ const finalTestData = [
 
     // 4× Forme contrase
     { type: 'multiple', category: '🆕 Forme contrase', question: 'Care e CORECT? „Florian geht ____ Arzt."', options: ['zu dem', 'zum', 'zur', 'zu den'], correct: 'zum', explanation: 'zu + dem (masc) → contracție obligatorie ZUM. NU se mai scrie „zu dem".' },
-    { type: 'multiple', category: '🆕 Forme contrase', question: 'Andreea geht ____ Universität. (zu + der?)', options: ['zum', 'zur', 'zu', 'zu der'], correct: 'zur', explanation: 'zu + der (fem) → contracție zur. „zur Universität".' },
-    { type: 'luckentext', category: '🆕 Forme contrase', question: 'Forma contrasă (bei + dem):', sentence: 'Mihai war ____ Bäcker.', translation: 'Mihai a fost la brutar.', accept: ['beim'], correct: 'beim', explanation: 'bei + dem = beim (masc/neutru). Pentru fem rămâne „bei der".' },
+    { type: 'multiple', category: '🆕 Forme contrase', question: 'Andreea geht ____ Universität. (die Universität · merge la = zu)', options: ['zum', 'zur', 'zu', 'zu der'], correct: 'zur', explanation: 'zu + der (fem) → contracție zur. „zur Universität".' },
+    { type: 'luckentext', category: '🆕 Forme contrase', question: 'Forma contrasă cu bei (la cineva — staționare):', sentence: 'Mihai war ____ Bäcker. (der Bäcker)', translation: 'Mihai a fost la brutar.', accept: ['beim'], correct: 'beim', explanation: 'bei + dem = beim (masc/neutru). Pentru fem rămâne „bei der".' },
     { type: 'multiple', category: '🆕 Forme contrase', question: 'NU se contractează — care e CORECT?', options: ['Annette ist beim Arbeit.', 'Annette ist bei der Arbeit.', 'Annette ist beider Arbeit.', 'Annette ist beirzu Arbeit.'], correct: 'Annette ist bei der Arbeit.', explanation: 'bei + der (fem) NU se contractă — rămâne „bei der Arbeit".' },
 
     // 4× Wo/Wohin/Woher

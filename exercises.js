@@ -101,16 +101,16 @@ function checkEx2() {
 // EX 3: Forme contrase (zum/zur/beim/vom) — când DA, când NU
 // ============================================
 const ex3Data = [
-    { id: 'a', sentence: 'Florian geht ____ Arzt. (zu + dem)', translation: 'Florian merge la doctor.', correct: 'zum', accept: ['zum'] },
-    { id: 'b', sentence: 'Andreea geht ____ Universität. (zu + der)', translation: 'Andreea merge la universitate.', correct: 'zur', accept: ['zur'] },
-    { id: 'c', sentence: 'Mihai war ____ Bäcker. (bei + dem)', translation: 'Mihai a fost la brutar.', correct: 'beim', accept: ['beim'] },
-    { id: 'd', sentence: 'Carolina kommt ____ Markt. (von + dem)', translation: 'Carolina vine de la piață.', correct: 'vom', accept: ['vom'] },
-    { id: 'e', sentence: 'Annette ist ____ Arbeit. (bei + der · NU se contractă!)', translation: 'Annette e la lucru.', correct: 'bei der', accept: ['bei der'] },
-    { id: 'f', sentence: 'Acar kommt ____ Schule. (von + der · NU se contractă!)', translation: 'Acar vine de la școală.', correct: 'von der', accept: ['von der'] },
-    { id: 'g', sentence: 'Florian geht ____ Krankenhaus. (zu + dem)', translation: 'Florian merge la spital.', correct: 'zum', accept: ['zum'] },
-    { id: 'h', sentence: 'Mihai fährt ____ Familie. (zu + der)', translation: 'Mihai merge la familie.', correct: 'zur', accept: ['zur'] },
-    { id: 'i', sentence: 'Das Geschenk ist ____ Annette. (von + Annette · NU se contractă, e nume propriu!)', translation: 'Cadoul e de la Annette.', correct: 'von', accept: ['von'] },
-    { id: 'j', sentence: 'Andreea war ____ Friseur. (bei + dem)', translation: 'Andreea a fost la coafor.', correct: 'beim', accept: ['beim'] }
+    { id: 'a', sentence: 'Florian geht ____ Arzt. (der Arzt · merge la = zu)', translation: 'Florian merge la doctor.', correct: 'zum', accept: ['zum'] },
+    { id: 'b', sentence: 'Andreea geht ____ Universität. (die Universität · merge la = zu)', translation: 'Andreea merge la universitate.', correct: 'zur', accept: ['zur'] },
+    { id: 'c', sentence: 'Mihai war ____ Bäcker. (der Bäcker · la cineva = bei)', translation: 'Mihai a fost la brutar.', correct: 'beim', accept: ['beim'] },
+    { id: 'd', sentence: 'Carolina kommt ____ Markt. (der Markt · de la = von)', translation: 'Carolina vine de la piață.', correct: 'vom', accept: ['vom'] },
+    { id: 'e', sentence: 'Annette ist ____ Arbeit. (die Arbeit · la = bei · ATENȚIE: feminin NU se contractă!)', translation: 'Annette e la lucru.', correct: 'bei der', accept: ['bei der'] },
+    { id: 'f', sentence: 'Acar kommt ____ Schule. (die Schule · de la = von · ATENȚIE: feminin NU se contractă!)', translation: 'Acar vine de la școală.', correct: 'von der', accept: ['von der'] },
+    { id: 'g', sentence: 'Florian geht ____ Krankenhaus. (das Krankenhaus · merge la = zu)', translation: 'Florian merge la spital.', correct: 'zum', accept: ['zum'] },
+    { id: 'h', sentence: 'Mihai fährt ____ Familie. (die Familie · merge la = zu)', translation: 'Mihai merge la familie.', correct: 'zur', accept: ['zur'] },
+    { id: 'i', sentence: 'Das Geschenk ist ____ Annette. (Annette = nume propriu · de la = von · ATENȚIE: nume proprii NU se contractă!)', translation: 'Cadoul e de la Annette.', correct: 'von', accept: ['von'] },
+    { id: 'j', sentence: 'Andreea war ____ Friseur. (der Friseur · la cineva = bei)', translation: 'Andreea a fost la coafor.', correct: 'beim', accept: ['beim'] }
 ];
 
 function buildEx3() {
