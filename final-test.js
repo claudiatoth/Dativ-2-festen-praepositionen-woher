@@ -23,7 +23,7 @@ function normalizeTestAnswer(str) {
         .replace(/\s*\/\s*/g, ' ')
         .replace(/\s*,\s*/g, ' ')
         .replace(/\s+/g, ' ')
-        .replace(/[.!?;:]/g, '');
+        .replace(/[.!?;:]/g, '').trim();
 }
 
 const finalTestData = [
